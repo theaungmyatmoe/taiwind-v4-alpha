@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #f00;
+}
+
+@layer base {
+    [data-theme="forest"] {
+        --color-primary: #560;
+    }
+
+    [data-theme="candy"] {
+        --color-primary: #f0f;
+    }
+}
